@@ -1,26 +1,25 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ErrorComponent } from './error.component';
+import { LinkGenericComponent } from './link-generic.component';
 
-describe('ErrorComponent', () => {
-  let component: ErrorComponent;
-  let fixture: ComponentFixture<ErrorComponent>;
-  let errorMessage: 'error works!';
+describe('LinkGenericComponent', () => {
+  let component: LinkGenericComponent;
+  let fixture: ComponentFixture<LinkGenericComponent>;
+
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ ErrorComponent ]
+      declarations: [ LinkGenericComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(ErrorComponent);
+    fixture = TestBed.createComponent(LinkGenericComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
 
   it('should create', () => {
     expect(component).toBeTruthy();
-    expect(component).toContain(errorMessage);
   });
 });

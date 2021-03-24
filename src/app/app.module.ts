@@ -8,6 +8,7 @@ import { ErrorComponent } from './error/error.component';
 import { DetailsProductComponent } from './products/details-product/details-product.component';
 import { HomeComponent } from './home/home.component';
 import { ProductlistComponent } from './products/productlist/productlist.component';
+import { LinkGenericComponent } from './link-generic/link-generic.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -15,7 +16,8 @@ import { ProductlistComponent } from './products/productlist/productlist.compone
     ErrorComponent,
     DetailsProductComponent,
     HomeComponent,
-    ProductlistComponent
+    ProductlistComponent,
+    LinkGenericComponent
   ],
   imports: [
     BrowserModule,
